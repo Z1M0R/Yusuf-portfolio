@@ -1,71 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>By Nuh</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
-
-    body {
-      margin: 0;
-      font-family: 'Quicksand', sans-serif;
-      background: linear-gradient(to bottom, #121212, #1f1f1f);
-      color: #f0f0f0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      padding: 2rem;
-      overflow: hidden;
-    }
-
-    .fade-in {
-      opacity: 0;
-      animation: fadeIn 2s ease forwards;
-    }
-
-    .delay-1 { animation-delay: 1s; }
-    .delay-2 { animation-delay: 3s; }
-    .delay-3 { animation-delay: 5s; }
-
-    @keyframes fadeIn {
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    h1, p {
-      max-width: 600px;
-      text-align: center;
-      margin: 0.5em 0;
-      transform: translateY(10px);
-    }
-
-    .highlight {
-      color: #00d4ff;
-      font-weight: 600;
-    }
-
-    .about {
-      margin-top: 3em;
-      font-size: 0.95rem;
-      color: #ccc;
-      line-height: 1.6;
-      border-top: 1px solid #444;
-      padding-top: 1em;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 class="fade-in delay-1">“In a world wired tight...</h1>
-  <p class="fade-in delay-2">where thoughts glitch and hearts buffer, a soul writes—not to escape—but to reveal.”</p>
-  <h1 class="fade-in delay-3 highlight">By Nuh: A tale of code, thoughts & soul.</h1>
-
-  <div class="about fade-in delay-3">
-    <p>
-      I’m Yusuf Omar—digital artisan, thinker, storyteller. <br>
-      <strong>By Nuh</strong> is not just a project, it's a character I developed from my own emotional journey. A blend of faith, code, and psychology—where emotion meets interaction.
+  <div class="intro">
+    <img src="logo.png" alt="By Nuh Logo" class="logo" />
+    <h1>By Nuh</h1>
+    <p class="tagline">A Tale of Code, Thoughts & Soul</p>
+    <p class="about">
+      Developed by <strong>Yusuf Omar</strong>, “By Nuh” is not just a game — 
+      it's a reflection of pain, faith, and the silent conversations in our minds.
     </p>
+    <a href="#start" class="enter-btn">Begin the Tale</a>
   </div>
 </body>
 </html>
